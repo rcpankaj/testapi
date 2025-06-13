@@ -16,7 +16,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/splash.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
@@ -35,7 +35,12 @@
         {
           "image": "./assets/images/splash.png",
           "resizeMode": "cover",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#000000"
+          }
         }
       ]
     ],
@@ -43,9 +48,11 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {},
+      "router": {
+        "origin": false
+      },
       "eas": {
-        "projectId": "5003233a-6429-4d08-85df-9fa619859b49"
+        "projectId": "d0f069db-f890-439c-bfbf-e19e2af5a79a"
       }
     },
     "owner": "tagodev",
